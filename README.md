@@ -1,8 +1,11 @@
 #Single shot object detection
+
 import cv2 #Importing OpenCV
+
 import numpy as np #Importing numpy library
 
 #Imprting the model architecture and weights respectively
+
 model = cv2.dnn.readNetFromCaffe('C:/Users/ADMIN/Downloads/Data Sets_SDC/opencv_config_files/Day 5/MobileNetSSD_deploy.prototxt',
                                  'C:/Users/ADMIN/Downloads/Data Sets_SDC/opencv_config_files/Day 5/MobileNetSSD_deploy.caffemodel')
 
